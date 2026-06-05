@@ -27,6 +27,13 @@ struct HousesListView: View {
                 HouseItemView(providedHouse: currentHouse)
             }
             .navigationTitle("LCS Houses")
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink(destination: SokobanGameView()) {
+                        Label("Sokoban", systemImage: "shippingbox.fill")
+                    }
+                }
+            }
         }
     }
 }

@@ -14,6 +14,14 @@
 		5E3551462FCDDC5800C0410F /* HousesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3551452FCDDC5800C0410F /* HousesListView.swift */; };
 		5E3551482FCDDC5800C0410F /* HouseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3551472FCDDC5800C0410F /* HouseItemView.swift */; };
 		5E35514A2FCDDC5800C0410F /* RELEASE.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E3551492FCDDC5800C0410F /* RELEASE.md */; };
+		5E3551772FCF628C00C0410F /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3551762FCF628C00C0410F /* Coordinate.swift */; };
+		5E3551792FCF629500C0410F /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3551782FCF629500C0410F /* Direction.swift */; };
+		5E35517B2FCF629D00C0410F /* SokobanTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35517A2FCF629D00C0410F /* SokobanTile.swift */; };
+		5E35517D2FCF62A700C0410F /* SokobanEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35517C2FCF62A700C0410F /* SokobanEntity.swift */; };
+		5E35517F2FCF62B400C0410F /* SokobanLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E35517E2FCF62B400C0410F /* SokobanLevel.swift */; };
+		5E3551812FCF62C100C0410F /* SokobanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3551802FCF62C100C0410F /* SokobanViewModel.swift */; };
+		5E3551832FCF62CF00C0410F /* SokobanTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3551822FCF62CF00C0410F /* SokobanTileView.swift */; };
+		5E3551852FCF62D700C0410F /* SokobanGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3551842FCF62D700C0410F /* SokobanGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +33,14 @@
 		5E3551452FCDDC5800C0410F /* HousesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesListView.swift; sourceTree = "<group>"; };
 		5E3551472FCDDC5800C0410F /* HouseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseItemView.swift; sourceTree = "<group>"; };
 		5E3551492FCDDC5800C0410F /* RELEASE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASE.md; sourceTree = "<group>"; };
+		5E3551762FCF628C00C0410F /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		5E3551782FCF629500C0410F /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		5E35517A2FCF629D00C0410F /* SokobanTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SokobanTile.swift; sourceTree = "<group>"; };
+		5E35517C2FCF62A700C0410F /* SokobanEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SokobanEntity.swift; sourceTree = "<group>"; };
+		5E35517E2FCF62B400C0410F /* SokobanLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SokobanLevel.swift; sourceTree = "<group>"; };
+		5E3551802FCF62C100C0410F /* SokobanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SokobanViewModel.swift; sourceTree = "<group>"; };
+		5E3551822FCF62CF00C0410F /* SokobanTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SokobanTileView.swift; sourceTree = "<group>"; };
+		5E3551842FCF62D700C0410F /* SokobanGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SokobanGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,11 @@
 			isa = PBXGroup;
 			children = (
 				5E35513F2FCDDC5800C0410F /* House.swift */,
+				5E3551762FCF628C00C0410F /* Coordinate.swift */,
+				5E3551782FCF629500C0410F /* Direction.swift */,
+				5E35517A2FCF629D00C0410F /* SokobanTile.swift */,
+				5E35517C2FCF62A700C0410F /* SokobanEntity.swift */,
+				5E35517E2FCF62B400C0410F /* SokobanLevel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -79,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				5E3551422FCDDC5800C0410F /* HouseListViewModel.swift */,
+				5E3551802FCF62C100C0410F /* SokobanViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -88,6 +110,8 @@
 			children = (
 				5E3551452FCDDC5800C0410F /* HousesListView.swift */,
 				5E3551472FCDDC5800C0410F /* HouseItemView.swift */,
+				5E3551822FCF62CF00C0410F /* SokobanTileView.swift */,
+				5E3551842FCF62D700C0410F /* SokobanGameView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,11 +189,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3551792FCF629500C0410F /* Direction.swift in Sources */,
 				5E3551482FCDDC5800C0410F /* HouseItemView.swift in Sources */,
+				5E3551852FCF62D700C0410F /* SokobanGameView.swift in Sources */,
 				5E3551402FCDDC5800C0410F /* House.swift in Sources */,
 				5E3551462FCDDC5800C0410F /* HousesListView.swift in Sources */,
+				5E35517F2FCF62B400C0410F /* SokobanLevel.swift in Sources */,
+				5E3551812FCF62C100C0410F /* SokobanViewModel.swift in Sources */,
+				5E3551832FCF62CF00C0410F /* SokobanTileView.swift in Sources */,
 				5E3551432FCDDC5800C0410F /* HouseListViewModel.swift in Sources */,
 				5E35513B2FCDDC5800C0410F /* ICS3UCulminatingApp.swift in Sources */,
+				5E3551772FCF628C00C0410F /* Coordinate.swift in Sources */,
+				5E35517B2FCF629D00C0410F /* SokobanTile.swift in Sources */,
+				5E35517D2FCF62A700C0410F /* SokobanEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
